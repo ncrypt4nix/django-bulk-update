@@ -25,7 +25,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        'Django==1.6',
+        'Django>=1.6',
     ],
     description='Bulk update using one query over Django ORM.',
     long_description=README,
